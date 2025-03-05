@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../../css/style.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="nav-container">
-            <a href="/" class="logo">
-                <img src="/logos/logo.png" alt="따사룸 로고">
+            <a href="../../index.html" class="logo">
+                <img src="../../logos/logo.png" alt="따사룸 로고">
             </a>
             <ul class="nav-menu">
-                <li><a href="/index.html">홈</a></li>
+                <li><a href="../../index.html">홈</a></li>
                 <li>
                     <a href="#">따사룸</a>
                     <ul class="dropdown">
-                        <li><a href="/pages/about/about.html">about 따사룸</a></li>
+                        <li><a href="about.html">about 따사룸</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">시공서비스</a>
                     <ul class="dropdown">
-                        <li><a href="/pages/service/process.html">시공 절차</a></li>
-                        <li><a href="/pages/service/personal.html">개인시공상담</a></li>
-                        <li><a href="/pages/service/business.html">기관시공상담</a></li>
+                        <li><a href="../service/process.html">시공 절차</a></li>
+                        <li><a href="../service/individual.html">개인시공상담</a></li>
+                        <li><a href="../service/institution.html">기관시공상담</a></li>
                     </ul>
                 </li>
-                <li><a href="/pages/reviews/">시공후기</a></li>
+                <li><a href="../reviews/index.html">시공후기</a></li>
                 <li>
                     <a href="#">Shop</a>
                     <ul class="dropdown">
-                        <li><a href="https://brand.naver.com/ddasaroom/products/6092903705" target="_blank">롤매트(공식몰)</a></li>
-                        <li><a href="https://brand.naver.com/ddasaroom/products/5994906898" target="_blank">퍼즐매트(공식몰)</a></li>
-                        <li><a href="https://brand.naver.com/ddasaroom/products/4200445704" target="_blank">강아지롤매트(공식몰)</a></li>
+                        <li><a href="https://brand.naver.com/ddasaroom/products/6092903705" target="_blank">롤매트(공식몰)</a>
+                        </li>
+                        <li><a href="https://brand.naver.com/ddasaroom/products/5994906898"
+                                target="_blank">퍼즐매트(공식몰)</a></li>
+                        <li><a href="https://brand.naver.com/ddasaroom/products/4200445704"
+                                target="_blank">강아지롤매트(공식몰)</a></li>
                     </ul>
                 </li>
                 <li><a href="#" class="nav-button">견적문의</a></li>
@@ -52,8 +57,51 @@
         </section>
     </main>
 
+    <div class="floating-banner">
+        <a href="tel:16007417" class="floating-button" title="전화문의하기">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="https://talk.naver.com/WC8A2I" target="_blank" class="floating-button" title="톡톡 문의하기">
+            <i class="fas fa-comments"></i>
+        </a>
+        <a href="https://brand.naver.com/ddasaroom" target="_blank" class="floating-button" title="네이버 브랜드스토어">
+            <i class="fas fa-store"></i>
+        </a>
+    </div>
+
     <footer class="footer">
-        <!-- 기존 footer 내용 -->
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-cs">1600-7417</div>
+                고객센터 운영시간 : 평일 오전 9:00 ~ 오후 5:00 (점심시간 12:00 ~ 13:00) 토, 일, 공휴일 휴무
+                <span>I</span>
+                FAX 031-712-6833
+                <br>
+                27642 충청북도 음성군 금왕읍 금일로 259 (주)대승아이앤피
+                <span>I</span>
+                대표 최석수
+                <span>I</span>
+                개인정보관리책임자 임흥순
+                <br>
+                사업자 등록번호 113-86-05213
+                <a href="#none"
+                    onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1138605213', 'bizCommPop', 'width=750, height=950;');return false;"
+                    class="biz-check">[사업자정보확인]</a>
+                <span>I</span>
+                통신판매업 신고번호 제 2017-충북음성군-70호
+                <br>
+                <b>
+                    국민은행 710801-01-374433
+                    <span>I</span>
+                    우리은행 1005-403-255253
+                    <span>I</span>
+                    농협은행 355-0061-4650-23
+                    <span>I</span>
+                    예금주 (주)대승아이앤피
+                </b>
+                <div class="footer-copy">COPYRIGHT ⓒ (주)대승아이앤피, ALL RIGHTS RESERVED.</div>
+            </div>
+        </div>
     </footer>
 
     <div class="floating-banner">
@@ -67,7 +115,8 @@
             <i class="fas fa-store"></i>
         </a>
     </div>
-
+    </main>
     <script src="../../js/scripts.js"></script>
 </body>
-</html> 
+
+</html>
